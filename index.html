@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>МОЯ КРЕПОСТЬ</title>
+    <link href="style/css/reset.css" rel="stylesheet">
+    <link href="style/css/magnific-popup.css" rel="stylesheet">
+    <link href="style/css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="content-container">
+        <div class="content-row header__heading">
+            <div class=" content-column header__wrapper">
+                <img src="img/logo.svg" alt="Logo" class="header__logo content-image">
+                <span class="header__designation">МОЯ КРЕПОСТЬ</span>
+                <span class="header__name">строительная компания</span>
+            </div>
+            <div class="content-column header__phone">
+                <a href="#" class=" header__number">
+                    8 (800) 777 33 22
+                </a>
+                <a href="#request" class="header__call-back btn_politic pop  popup-modal">
+                    Перезвоните мне
+                </a>
+            </div>
+        </div>
+        <h1 class="header__title title">
+            <span class="header__title--element">Строим надежные дома</span>
+            <span class="header__title--element">в Уфе и по всей Башкирии</span>
+            <span class="header__title--element">с гарантией 15 лет</span>
+        </h1>
+        <div class="content-row header__wrap">
+            <a href="#quiz" class="button header__cost header__button">Рассчитать стоимость</a>
+            <a href="#request" class="button header__request header__button btn_politic pop  popup-modal">Оставить
+                заявку</a>
+        </div>
+        <ul>
+            <li class="header__item content-row">
+                <img src="img/house.svg" alt="House" class="header__icon">
+                Строим как для себя и своей семьи
+            </li>
+            <li class="header__item content-row">
+                <img src="img/house.svg" alt="House" class="header__icon">
+                Беспроцентная рассрочка без участия банка
+            </li>
+            <li class="header__item content-row">
+                <img src="img/house.svg" alt="House" class="header__icon">
+                Дизайн-проект дома в подарок
+            </li>
+        </ul>
+    </div>
+    <div id="request" class="popup_window mfp-hide zoom-anim-dialog footer__wrap request">
+        <div class="popup_window__content footer__content">
+            <div class="quiz__content">
+                <h4 class="quiz__title request__title">Ответьте на 6 простых вопросов
+                    <span class="quiz__title--color">и получите индивидуальный расчет стоимости проекта + дизайн проект в подарок!</span>
+                </h4>
+                <div>
+                    <span class="quiz__number request__name">Отлично, последний шаг!</span>
+                    <form class="content-column request__form">
+                        <span class="quiz__question request__text">Напишите свой телефон, мы не будем надоедать звонками,
+а забронируем бесплатную консультацию в нашем офисе</span>
+
+                        <input type="text" placeholder="Ваше имя" class="consultation__input request__input">
+                        <input type="tel" placeholder="Ваш номер телефона" class="consultation__input request__input">
+                        <a href="#thank"
+                           class="button consultation__button request__button btn_politic pop  popup-modal">Оставить
+                            заявку</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thank" class="popup_window mfp-hide zoom-anim-dialog footer__wrap request thank">
+        <div class="popup_window__content footer__content">
+            <h3 class="thank__title">Спасибо за заявку!</h3>
+            <span class="thank__text">мы свяжемся с вами в течении 15 минут</span>
+            <a href="#" class="thank__link">вернуться на сайт</a>
+        </div>
+    </div>
+</header>
+<section class="production">
+    <div class="content-container">
+        <div class="content-row production__column">
+            <div class="content-column production__row">
+                <div class="production__item ">
+                    <img src="img/element.jpg" class="content-image production__image">
+                    <div class="production__wrapper content-column production__name">
+                        <h2 class="title production__title">В каком доме
+                            вы мечтаете
+                            прожить
+                            лучшие годы?</h2>
+                    </div>
+                </div>
+                <div class="production__item ">
+                    <img src="img/baths.jpg" class="content-image production__image">
+                    <a class="production__wrap content-column  btn_politic pop  popup-modal" href="#request">
+                        <div class=" production__inner production__inner--element">
+                            <h3 class="name">бани
+                                и банные комплексы</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="content-column">
+                <div class="content-row production__box">
+                    <div class="production__item  ">
+                        <img src="img/house-aerated-concrete.jpg"
+                             class="content-image  production__image">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner">
+                                <h3 class="name">Дом из газобетона</h3>
+                                <p class="production__text">Наши блоки автоклавного производства
+                                    Идеальная геометрия и отличные характеристики
+                                    теплопроводности</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="production__item ">
+                        <img src="img/house-foam-block.jpg" class="content-image  production__image">
+                        <a class="production__wrap  content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner">
+                                <h3 class="name">Дом из пеноблока</h3>
+                                <p class="production__text">Обладают легким весом и хорошими
+                                    тепловыми характеристиками</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="production__item ">
+                    <img src="img/house-brick.jpg" class="content-image  production__image">
+                    <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                        <div class=" production__inner ">
+                            <h3 class="name">Дом из кирпича</h3>
+                            <p class="production__text">Основной материал для строительства.</p>
+                            <p class="production__text">
+                                Обладает самой высокой прочностью, но и самой высокой ценой и весом.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-row production__box">
+                    <div class="production__item ">
+                        <img src="img/house-tree.jpg" class="content-image  production__image">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner">
+                                <h3 class="name">Дом из дерева</h3>
+                                <p class="production__text">Самый лучший природный материал.
+
+                                </p>
+                                <P class="production__text">Строим как из оцилиндрованного бревна,
+                                    так и ручной рубки</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="production__item">
+                        <img src="img/house-design.jpg" class="content-image  production__image">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner production__inner--element">
+                                <h3 class="name">Дизайнерское решение</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="quiz" id="quiz">
+    <div class="content-container">
+        <div class="quiz__content">
+            <h4 class="quiz__title">Ответьте на 6 простых вопросов
+                <span class="quiz__title--color">и получите индивидуальный расчет стоимости проекта + дизайн проект в подарок!</span>
+            </h4>
+            <form>
+                <ul class="quiz__content">
+                    <li class="quiz__element" id="question_1">
+                        <span class="quiz__number">Вопрос 1 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#" data-src="1" class="button quiz__button ">Следующий вопрос</a>
+                        </div>
+                    </li>
+                    <li class="quiz__element quiz__element--hidden" id="question_2">
+                        <span class="quiz__number">Вопрос 2 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#" data-src="2" class="button quiz__button ">Следующий вопрос</a>
+                        </div>
+                    </li>
+                    <li class="quiz__element quiz__element--hidden" id="question_3">
+                        <span class="quiz__number">Вопрос 3 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#" data-src="3" class="button quiz__button ">Следующий вопрос</a>
+                        </div>
+                    </li>
+                    <li class="quiz__element quiz__element--hidden" id="question_4">
+                        <span class="quiz__number">Вопрос 4 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#" data-src="4" class="button quiz__button ">Следующий вопрос</a>
+                        </div>
+                    </li>
+                    <li  class="quiz__element quiz__element--hidden" id="question_5">
+                        <span class="quiz__number">Вопрос 5 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#" data-src="5" class="button quiz__button ">Следующий вопрос</a>
+                        </div>
+                    </li>
+                    <li class="quiz__element quiz__element--hidden" id="question_6">
+                        <span class="quiz__number">Вопрос 6 из 6</span>
+                        <div class="content-column ">
+                            <span class="quiz__question">Какой дом вы хотите построить?</span>
+
+                            <div class="content-row quiz__item">
+                                <input type="radio" class="quiz__input">
+                                <label class="quiz__label">Дачный</label>
+                            </div>
+                            <div class="content-row  quiz__item">
+                                <input type="radio" class="quiz__input" checked>
+                                <label class="quiz__label">Для постоянного проживания</label>
+                            </div>
+                            <a href="#request" data-src="6" class="button quiz__button btn_politic pop  popup-modal">Следующий вопрос</a>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+<section class="advantages">
+    <div class="content-container">
+        <div class="content-row advantages__content">
+            <div class="advantages__wrapper">
+                <img src="img/advantages-image.jpg" alt="House" class="content-image ">
+            </div>
+
+            <div class="advantages__wrap">
+                <h2 class="title advantages__title">Почему выбирают нас?</h2>
+                <ul>
+                    <li class="content-row advantages__item">
+                        1
+                        <div class="advantages__box">
+                            <span class="advantages__name">Строительство под ключ</span>
+                            <span class="advantages__info">Полный цикл — от проекта до
+финишной отделки готового дома.</span>
+                        </div>
+                    </li>
+                    <li class="content-row advantages__item">
+                        2
+                        <div class="advantages__box">
+                            <span class="advantages__name">Удобная система оплаты</span>
+                            <span class="advantages__info">Поэтапная оплата строительства
+согласно заранее согласованной смете.</span>
+                        </div>
+                    </li>
+                    <li class="content-row advantages__item">
+                        3
+                        <div class="advantages__box">
+                            <span class="advantages__name">Честная цена “без сюрпризов”</span>
+                            <span class="advantages__info">Сразу вносим в смету очевидные
+и прогнозируемые расходы.</span>
+                        </div>
+                    </li>
+                    <li class="content-row advantages__item">
+                        4
+                        <div class="advantages__box">
+                            <span class="advantages__name">Штатные строители</span>
+                            <span class="advantages__info">Все наши мастера работают
+с нами более 3-х лет.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="projects">
+    <div class="content-container">
+        <div class="content-row projects__inner">
+            <div class="projects__item ">
+                <img src="img/projects.jpg" class="content-image ">
+                <div class="production__wrapper content-column projects__name">
+                    <h2 class="title production__title projects__title">Типовые проекты</h2>
+                    <p class="projects__text">Здесь представлено 4 самых популярных
+                        типовых проекта, подборку из 20+
+                        типовых проектов, а так же составить
+                        индивидуальное решение мы
+                        можем у нас в уютном офисе
+                        за чашечкой кофе</p>
+                </div>
+            </div>
+            <div class=" projects__item  ">
+                <img src="img/project2.jpg"
+                     class="content-image  projects__image">
+                <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                    <div class=" production__inner">
+                        <h3 class="name">МК-101</h3>
+                        <ul class="projects__list content-row">
+                            <li class="projects__element">
+                                Площадь:
+                                <span class="projects__element--color">87,4 м2</span>
+                            </li>
+                            <li class="projects__element">
+                                Этажи:
+                                <span class="projects__element--color">1</span>
+                            </li>
+                            <li class="projects__element">
+                                Сан. узел:
+                                <span class="projects__element--color">1</span>
+                            </li>
+                            <li class="projects__element">
+                                Комнаты:
+                                <span class="projects__element--color">3</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content-row projects__inner">
+            <div class=" projects__item">
+                <img src="img/project3.jpg" class="content-image  projects__image">
+                <a class="production__wrap  content-column btn_politic pop  popup-modal" href="#request">
+                    <div class=" production__inner">
+                        <h3 class="name">МК-109</h3>
+                        <ul class="projects__list content-row">
+                            <li class="projects__element">
+                                Площадь:
+                                <span class="projects__element--color">139 м2</span>
+                            </li>
+                            <li class="projects__element">
+                                Этажи:
+                                <span class="projects__element--color">2</span>
+                            </li>
+                            <li class="projects__element">
+                                Сан. узел:
+                                <span class="projects__element--color">4</span>
+                            </li>
+                            <li class="projects__element">
+                                Комнаты:
+                                <span class="projects__element--color">6+1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class=" projects__item">
+                <img src="img/project4.jpg" class="content-image  projects__image">
+                <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                    <div class=" production__inner ">
+                        <h3 class="name">МК-102</h3>
+                        <ul class="projects__list content-row">
+                            <li class="projects__element">
+                                Площадь:
+                                <span class="projects__element--color">320 м2</span>
+                            </li>
+                            <li class="projects__element">
+                                Этажи:
+                                <span class="projects__element--color">2</span>
+                            </li>
+                            <li class="projects__element">
+                                Сан. узел:
+                                <span class="projects__element--color">4</span>
+                            </li>
+                            <li class="projects__element">
+                                Комнаты:
+                                <span class="projects__element--color">6+1+гараж</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="projects__item ">
+            <img src="img/project5.jpg" class="content-image projects__image ">
+            <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                <div class=" production__inner production__inner--element">
+                    <h3 class="name">название проекта</h3>
+                    <ul class="projects__list content-row">
+                        <li class="projects__element">
+                            Площадь:
+                            <span class="projects__element--color">125 м2</span>
+                        </li>
+                        <li class="projects__element">
+                            Этажи:
+                            <span class="projects__element--color">2</span>
+                        </li>
+                        <li class="projects__element">
+                            Сан. узел:
+                            <span class="projects__element--color">2</span>
+                        </li>
+                        <li class="projects__element">
+                            Комнаты:
+                            <span class="projects__element--color">3</span>
+                        </li>
+                    </ul>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="content-container">
+        <div class="content-row about__inner">
+            <div class="about__wrap">
+                <h3 class="about__title about__line">О компании</h3>
+                <p class="about__text">Строительная компания «Моя крепость» специализируется на строительстве
+                    и ремонте любого уровня сложности. С 20016 года мы развиваемся на рынке
+                    строительно-ремонтных услуг.</p>
+                <p class="about__text">
+                    <span class="about__text--info">Более десяти лет мы решаем задачи любой степени сложности.</span>
+
+                    <span class="about__text--info">Приобрели большой опыт работы с разными типами строений.</span>
+
+                    <span class="about__text--info"> Сформировали и сплотили команду высококвалифицированных
+                    специалистов-единомышленников.</span>
+
+                    <span class="about__text--info">Любим и умеем хорошо выполнять свою работу.</span>
+
+                    <span class="about__text--info">Наши преимущества говорят сами за себя – ежегодно мы строим
+                    десятки загородных домов, а также осуществляем комплексный
+                    ремонт квартир и коттеджей любой степени сложности.
+                </span></p>
+                <p class="about__text">Но при всем при этом наши цены на отделочные работы и строительство
+                    остаются более чем доступными. Убедитесь в этом сами,
+                    подав заявку на расчет стоимости работ.</p>
+                <p class="about__text">Если вы хотите построить дом необычной архитектурной формы
+                    или заказать оригинальную дизайнерскую отделку квартиры,
+                    то можете смело обращайтесь к нам. В вашем распоряжении
+                    будут лучшие специалисты, способные творчески справиться
+                    с любой задачей, причем в самые сжатые сроки и по наиболее
+                    привлекательным расценкам.</p>
+            </div>
+            <ul class="about__list">
+                <li class="about__line about__item">Гарантия на отделочные
+                    материалы до 15 лет
+                </li>
+                <li class="about__line about__item">Гарантия на фундамент
+                    до 15 лет
+                </li>
+                <li class="about__line about__item">Технический
+                    и дизайнерский надзор,
+                </li>
+                <li class="about__line about__item">Рассрочка
+                    без участия банка
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section class="gallery">
+    <div class="content-container">
+        <div class="content-row gallery__wrap">
+            <div class="gallery__name content-column">
+                <h2 class="title production__title gallery__title">Галерея выполненных проектов</h2>
+            </div>
+
+            <div>
+                <div class="content-row gallery__wrap">
+                    <div class=" gallery__item  ">
+                        <img src="img/gallery1.jpg"
+                             class="content-image ">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner gallery__inner">
+                                <h3 class="name">Одноэтажный дом в Бирске</h3>
+                                <ul class="projects__list content-row gallery__list">
+                                    <li class="projects__element  gallery__element">
+                                        Площадь:
+                                        <span class="projects__element--color">74 м2</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Расположение:
+                                        <span class="projects__element--color">Бирск</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Стоимость:
+                                        <span class="projects__element--color">1 432 270 РУБ</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Этажность:
+                                        <span class="projects__element--color">1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="  gallery__item  ">
+                        <img src="img/gallery2.jpg" class="content-image ">
+                        <a class="production__wrap  content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner  gallery__inner">
+                                <h3 class="name">Коттедж с теплым гаражом</h3>
+                                <ul class="projects__list content-row  gallery__list">
+                                    <li class="projects__element  gallery__element">
+                                        Площадь:
+                                        <span class="projects__element--color">144 м2</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Расположение:
+                                        <span class="projects__element--color">Юматово</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Стоимость:
+                                        <span class="projects__element--color">3 300 00 РУБ</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Этажность:
+                                        <span class="projects__element--color">2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="content-row gallery__wrap">
+                    <div class="  gallery__item  ">
+                        <img src="img/gallery3.jpg" class="content-image ">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner  gallery__inner">
+                                <h3 class="name">Коттедж на озере Акманай</h3>
+                                <ul class="projects__list content-row gallery__list">
+                                    <li class="projects__element  gallery__element">
+                                        Площадь:
+                                        <span class="projects__element--color">244 м2</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Расположение:
+                                        <span class="projects__element--color">оз. Акманай</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Стоимость:
+                                        <span class="projects__element--color">6 080 00РУБ</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Этажность:
+                                        <span class="projects__element--color">2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class=" gallery__item   ">
+                        <img src="img/gallery4.jpg" class="content-image ">
+                        <a class="production__wrap content-column btn_politic pop  popup-modal" href="#request">
+                            <div class=" production__inner  gallery__inner">
+                                <h3 class="name">Коттедж в Юматово</h3>
+                                <ul class="projects__list content-row gallery__list">
+                                    <li class="projects__element  gallery__element">
+                                        Площадь:
+                                        <span class="projects__element--color">315 м2</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Расположение:
+                                        <span class="projects__element--color">Юматово</span>
+                                    </li>
+                                    <li class="projects__element  gallery__element">
+                                        Стоимость:
+                                        <span class="projects__element--color">5 970 00 РУБ</span>
+                                    </li>
+                                    <li class="projects__element gallery__element">
+                                        Этажность:
+                                        <span class="projects__element--color">2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="reviews">
+    <div class="content-container">
+        <div class="reviews__wrapper">
+            <h2 class="reviews__title"><span class="reviews__title--inner">Посмотрите,</span>
+                что говорят наши клиенты</h2>
+            <div class="content-row reviews__wrap">
+                <div class="reviews__item">
+                    <img src="img/client1.jpg" alt="client" class="content-image reviews__photo">
+                    <a href="#video1" class="reviews__inner content-column btn_politic pop  popup-modal">
+                        <img src="img/play.svg" alt="play" class="reviews__image">
+                    </a>
+                    <div id="video1" class="popup_window mfp-hide zoom-anim-dialog footer__wrap">
+
+                        <div class="popup_window__content footer__content">
+                            <iframe class="reviews__unit" src="https://www.youtube-nocookie.com/embed/Q8Cj5kog1_Y"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <img src="img/client2.jpg" alt="client" class="content-image  reviews__photo">
+                    <a href="#video2" class="reviews__inner content-column btn_politic pop  popup-modal">
+                        <img src="img/play.svg" alt="play" class="reviews__image">
+                    </a>
+                    <div id="video2" class="popup_window mfp-hide zoom-anim-dialog footer__wrap">
+
+                        <div class="popup_window__content footer__content">
+                            <iframe class="reviews__unit" src="https://www.youtube-nocookie.com/embed/Q8Cj5kog1_Y"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <img src="img/client3.jpg" alt="client" class="content-image  reviews__photo">
+                    <a href="#video3" class="reviews__inner content-column btn_politic pop  popup-modal">
+                        <img src="img/play.svg" alt="play" class="reviews__image">
+                    </a>
+                    <div id="video3" class="popup_window mfp-hide zoom-anim-dialog footer__wrap">
+
+                        <div class="popup_window__content footer__content">
+                            <iframe class="reviews__unit" src="https://www.youtube-nocookie.com/embed/Q8Cj5kog1_Y"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <img src="img/client4.jpg" alt="client" class="content-image  reviews__photo">
+                    <a href="#video4" class="reviews__inner content-column btn_politic pop  popup-modal">
+                        <img src="img/play.svg" alt="play" class="reviews__image">
+                    </a>
+                    <div id="video4" class="popup_window mfp-hide zoom-anim-dialog footer__wrap">
+
+                        <div class="popup_window__content footer__content">
+                            <iframe class="reviews__unit" src="https://www.youtube-nocookie.com/embed/Q8Cj5kog1_Y"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="consultation">
+    <div class="content-container">
+        <div class="consultation__box content-row">
+            <div class="consultation__wrap">
+                <h2 class="consultation__title">Приглашаем к нам в офис,
+                    покажем образцы материалов,
+                    бесплатно проконсультируем</h2>
+                <form class="content-column">
+                    <input type="text" placeholder="Ваше имя" class="consultation__input">
+                    <input type="tel" placeholder="Ваш номер телефона" class="consultation__input">
+                    <button class="button consultation__button">Перезвоните мне</button>
+                </form>
+            </div>
+            <div class="content-column consultation__inner">
+                <span class="consultation__text">ул. Менделеева 167, к.1 оф. 115</span>
+                <a href="#" class="consultation__text">8 (800) 777 33 22</a>
+                <a href="#" class="consultation__text">info@mycastle.ru</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="content-container">
+        <div class="content-row footer__inner">
+            <span class="footer__text footer__wrapper">ООО “Моя крепость” – 2019. ИНН 12345678910 ОГРН 12345678910</span>
+            <a href="#test-modal" class="btn_politic pop footer__link popup-modal">Политика конфиденциальности</a>
+            <span class="footer__text">Разработка сайта AMI digital</span>
+        </div>
+        <div id="test-modal" class="popup_window mfp-hide zoom-anim-dialog footer__wrap">
+
+            <div class="popup_window__content footer__content">
+                <p>Пользователь, оставляя заявку на интернет -сайте, принимает настоящее
+                    Согласие на обработку персональных данных (далее – Согласие). Действуя
+                    свободно, своей волей и в своем интересе, а также подтверждая свою
+                    дееспособность, Пользователь дает свое согласие ООО «Моя крепость» , на
+                    обработку своих персональных данных со следующими условиями: </p>
+                <ul>
+                    <li> 1. Данное Согласие дается на обработку персональных данных, как без
+                        использования средств автоматизации, так и с их использованием.
+                    </li>
+                    <li>2. Согласие дается на обработку следующих моих персональных данных: 
+                        1) Персональные данные, не являющиеся специальными или биометрическими:
+                        номера контактных телефонов; адрес лектронной почты; пользовательские
+                        данные (сведения о местоположении; тип и версия ОС; тип и версия Браузера;
+                        тип устройства и разрешение его крана; источник откуда пришел на сайт
+                        пользователь; с какого сайта или по какой рекламе; язык ОС и Браузера; какие
+                        страницы открывает и на какие кнопки нажимает пользователь; ip-адрес.
+                    </li>
+                    <li> 3. Персональные данные не являются общедоступными.</li>
+                    <li>4. Цель обработки персональных данных: обработка входящих запросов
+                        физических лиц с целью оказания консультации; аналитики действий физического
+
+                        лица на веб-сайте и функционирования веб-сайта; проведение рекламных и
+                        новостных рассылок
+                    </li>
+                    <li> 5. Основанием для обработки персональных данных является: ст. 24 Конституции
+                        Российской Федерации; ст.6 Федерального закона №152 -ФЗ «О персональных
+                        данных»; настоящее согласие на обработку персональных данных 
+                    </li>
+                    <li>6. В ходе обработки с персональными данными будут совершены следующие
+                        действия: сбор; запись; систематизация; накопление; хранение; уточнение
+                        (обновление, изменение); извлечение; использован ие; передач а
+                        (распространение, предоставление, доступ); блокирование; удаление;
+                        уничтожение.
+                    </li>
+                    <li> 7. Персональные данные обрабатываются до отписки физического лица от
+                        рекламных и новостных рассылок. Также обработка персональных данных может
+                        быть прекращена по запросу субъекта персональных данных. Хранение
+                        персональных данных, зафиксированных на бумажных носителях осуществляется
+                        согласно Федеральному закону №125 -ФЗ «Об архивном деле в Российской
+                        Федерации» и иным нормативно правовым актам в области архивного дела и
+                        архивного хранения. 
+                    </li>
+                    <li>8. Согласие может быть отозвано субъектом персональных данных или его
+                        представителем путем направл ения письменного заявления по адресу,
+                        указанному в начале данного Согласия. 
+                    </li>
+                    <li>9. В случае отзыва субъектом персональных данных или его представителем
+                        согласия на обработку персональных данных Индивидуальный предприниматель
+                        Денисенко Дмитрий Анатольевич вправе продолжить обработку персональных
+                        данных без согласия субъекта персональных данных при наличии оснований,
+                        указанных в пунктах 2 – 11 части 1 статьи 6, части 2 статьи 10 и части 2 статьи 11
+                        Федерального закона №152-ФЗ «О персональных данных» от 27.07.2006 г
+                    </li>
+                    <li>10. Настоящее согласие действует все время до момента прекращения обработки
+                        персональных данных, указанных в п.7 и п.8 данного Согласия.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
