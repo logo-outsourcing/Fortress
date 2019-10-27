@@ -99,9 +99,9 @@
 }
 
 .header {
-  background: url("/img/header-bg.png") no-repeat;
+  background: url("../../img/header-bg.png") no-repeat;
   background-size: cover;
-  padding: 25px 0 75px;
+  padding: 25px 0 74px;
   &__logo {
     margin-bottom: 11px;
   }
@@ -138,6 +138,9 @@
     letter-spacing: 0.025em;
     color: #ffffff;
     text-decoration: none;
+    &:hover{
+      color: #d29274;
+    }
   }
   &__call-back {
     font-family: 'Gilroy Medium', sans-serif;
@@ -147,6 +150,9 @@
     text-decoration: underline;
     letter-spacing: 0.065em;
     color: #ffffff;
+    &:hover{
+      text-decoration: none;
+    }
   }
   &__title {
     font-family: 'Gilroy Bold', sans-serif;
@@ -168,6 +174,10 @@
     width: 326px;
     margin-bottom: 20px;
     text-decoration: none;
+    box-shadow: 0 0 7px 1px #d29274;
+    &:hover{
+      box-shadow: none;
+    }
   }
   &__cost {
     margin-right: 4%;
@@ -329,6 +339,10 @@
     letter-spacing: 0.02em;
     width: 272px;
     text-decoration: none;
+    box-shadow: 0 0 7px 1px #d29274;
+    &:hover{
+      box-shadow: none;
+    }
   }
   &__item {
     margin-bottom: 85px;
@@ -337,9 +351,6 @@
   &__element{
     &--hidden{
       display: none;
-    }
-    &--visible{
-      display: block;
     }
   }
 }
@@ -379,6 +390,7 @@
   background-color: #d29274;
   transform: translate(-50%, -50%);
   visibility: visible;
+  box-shadow: 0 0 8px 8px #d29274;
 }
 
 .advantages {
@@ -458,7 +470,7 @@
   &:after {
     content: "";
     position: absolute;
-    top: 15%;
+    top: 16%;
     left: 0;
     width: 100%;
     height: 85%;
@@ -571,7 +583,7 @@
   &:after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     height: 24%;
     width: 100%;
@@ -666,7 +678,7 @@
   &:after {
     content: "";
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     height: 90%;
     width: 100%;
@@ -701,12 +713,17 @@
     line-height: 40px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    text-decoration: none;
     background-image: linear-gradient(0.0deg, #d29274 0%, #deb6a3 100%);
+    box-shadow: 0 0 7px 1px #d29274;
+    &:hover{
+      box-shadow: none;
+    }
   }
   &__input {
     font-family: 'Gilroy Medium', sans-serif;
     font-size: 17px;
-    line-height: 40px;
+    line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -725,6 +742,11 @@
     color: #d29274;
     text-decoration: none;
     display: block;
+  }
+  &__link{
+    &:hover{
+      color: #ffffff;
+    }
   }
 }
 
@@ -747,6 +769,9 @@
     text-decoration: underline;
     letter-spacing: 0.02em;
     color: #1f222c;
+    &:hover{
+      text-decoration: none;
+    }
   }
   &__wrap {
     margin: 10px auto;
@@ -783,6 +808,10 @@
     border-radius: 0;
     text-decoration: none;
     color: #000000;
+    box-shadow: 0 0 7px 1px #ffffff;
+    &:hover{
+      box-shadow: none;
+    }
   }
 }
 .thank{
@@ -815,8 +844,12 @@
     text-decoration: underline;
     letter-spacing: 0.02em;
     color: #ffffff;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
+
 @media screen and (max-width: 1200px) {
   .about__list {
     width: 40%;
@@ -998,12 +1031,14 @@
   }
 
   .about__wrap {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .about__list {
     width: 85%;
     margin: 0 auto;
+    padding: 30px 0;
   }
 
   .about__item {
@@ -1060,7 +1095,9 @@
   .gallery__wrap {
     flex-wrap: wrap;
   }
-
+  .gallery {
+    padding: 0;
+  }
   .quiz__content {
     width: 80%;
     margin: 0 auto;
@@ -1131,6 +1168,12 @@
   .thank__link {
     font-size: 22px;
   }
+  .advantages {
+    padding: 100px 0;
+  }
+  .projects {
+    padding: 0 0 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1185,9 +1228,7 @@
     width: 100%;
   }
 
-  .advantages {
-    padding: 100px 0;
-  }
+
 
   .projects__element {
     font-size: 11px;
@@ -1246,5 +1287,27 @@
 
   .reviews__unit {
     height: 250px;
+  }
+  .quiz__content {
+    width: 95%;
+  }
+  .quiz__title {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .quiz__question {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .quiz__label {
+    font-size: 19px;
+  }
+  .quiz__item {
+    margin-bottom: 40px;
+  }
+  .about__text {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 20px;
   }
 }
